@@ -1,0 +1,212 @@
+/* ========== Google Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+/* ========== Variables ========== */
+:root {
+	--purple: #3498DB;
+	--bg-color: #fff;
+	--white: #1a1b26;
+	--border: 0.1rem solid rgba(0, 0, 0, 0.4);
+	--box-shadow: 0.3rem 0.3rem 1rem #111, -0.3rem -0.3rem 1rem #333;
+}
+/* ========== Style Global ========== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--bg-color);
+	padding-left: 25rem;
+}
+
+section {
+	min-height: 100vh;
+	padding: 2rem;
+}
+
+.title {
+	text-align: center;
+	font-size: 4rem;
+	color: var(--white);
+	padding-bottom: 2rem;
+}
+
+.title span {
+	color: var(--purple);
+	font-size: 5rem;
+}
+/* ========== Header Section ========== */
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 25rem;
+	height: 100%;
+	padding: 2rem;
+	text-align: center;
+	border-right: var(--border);
+	background-color: var(--bg-color);
+	z-index: 9999;
+}
+
+.header .user img {
+	width: 15rem;
+	height: 15rem;
+	margin: 1rem 0;
+	border-radius: 50%;
+	box-shadow: var(--box-shadow);
+}
+
+.header .user h3 {
+	color: var(--white);
+}
+
+.header .user p {
+	color: var(--purple);
+	font-size: 1rem;
+}
+
+.header .menu {
+	padding-top: 1rem;
+}
+
+.header .menu a {
+	display: block;
+	margin: 1.5rem 0;
+	padding: 0.7rem;
+	color: var(--white);
+	font-size: 1.2rem;
+	border-right: 5rem;
+	border-radius: 5rem;
+	box-shadow: var(--box-shadow);
+}
+
+.header .menu a:hover {
+	color: var(--purple);
+}
+
+/* ========== Home Section ========== */
+.home {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.home .content h3 {
+	font-size: 5rem;
+	color: var(--white);
+}
+
+.home .content p {
+	font-size: 2rem;
+	color: var(--purple);
+	padding: 0.5rem;
+}
+
+.home .social_media {
+	position: relative;
+	top: 4rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: var(--box-shadow);
+}
+
+.home .social_media a {
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.5rem;
+	margin: 0.5rem;
+	color: var(--white);
+	border-radius: 50%;
+	box-shadow: var(--box-shadow);
+}
+
+.home .social_media a:hover {
+	color: var(--purple);
+}
+
+/* ========== Data Section ========== */
+.data .row {
+	display: flex;
+	gap: 1.5rem;
+	flex: 1 1 40rem;
+	flex-wrap: wrap;
+}
+
+.data .row .box {
+	flex: 1 1 20rem;
+	text-align: center;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: var(--box-shadow);
+}
+
+.data .row .box .fas {
+	width: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color: var(--white);
+	border-radius: 50%;
+	box-shadow: var(--box-shadow);
+}
+
+.data .row .box h4 {
+	color: var(--purple);
+	padding: 0.5rem 0;
+	line-height: 1.1;
+}
+
+.data .row .box p {
+	font-size: 1rem;
+	color: var(--white);
+}
+
+/* ========== Movie Section ========== */
+.movie .rows {
+	display: flex;
+	gap: 1.5rem;
+	flex: 1 1 40rem;
+	flex-wrap: wrap;
+}
+
+.movie .rows .box {
+	flex: 1 1 20rem;
+	text-align: center;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: var(--box-shadow);
+}
+
+.movie .rows .box .fas {
+	width: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color: var(--white);
+	border-radius: 50%;
+	box-shadow: var(--box-shadow);
+}
+
+.movie .rows .box h4 {
+	color: var(--purple);
+	padding: 0.5rem 0;
+	line-height: 1.1;
+}
+
+.movie .rows .box p {
+	font-size: 1rem;
+	color: var(--white);
+}
